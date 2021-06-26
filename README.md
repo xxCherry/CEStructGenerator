@@ -1,0 +1,1 @@
+# Generates cpp struct from CE struct
