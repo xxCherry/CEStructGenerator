@@ -8,53 +8,6 @@ using System.Xml;
 
 namespace CEStructGenerator
 {
-    /*
-     * <Elements>
-  <Element Offset="64" Vartype="Pointer" Bytesize="4" Description="hitObjectManager" DisplayMethod="Unsigned Integer">
-    <Structure Name="osu.GameplayElements.HitObjectManagerOsu" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
-      <Elements>
-        <Element Offset="0" Vartype="Pointer" Bytesize="4" Description="Vtable" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="4" Vartype="Pointer" Bytesize="4" Description="binder" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="8" Vartype="Double" Bytesize="8" Description="SliderScoringPointDistance" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="16" Vartype="Double" Bytesize="8" Description="SpinnerRotationRatio" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="24" Vartype="Float" Bytesize="4" Description="HitObjectRadius" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="28" Vartype="4 Bytes" Bytesize="4" Description="PreEmpt" DisplayMethod="Signed Integer"/>
-        <Element Offset="32" Vartype="4 Bytes" Bytesize="4" Description="HitWindow50" DisplayMethod="Signed Integer"/>
-        <Element Offset="36" Vartype="4 Bytes" Bytesize="4" Description="HitWindow100" DisplayMethod="Signed Integer"/>
-        <Element Offset="40" Vartype="4 Bytes" Bytesize="4" Description="HitWindow300" DisplayMethod="Signed Integer"/>
-        <Element Offset="44" Vartype="Float" Bytesize="4" Description="StackOffset" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="48" Vartype="Pointer" Bytesize="4" Description="Beatmap" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="52" Vartype="Pointer" Bytesize="4" Description="ActiveMods" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="56" Vartype="Pointer" Bytesize="4" Description="Bookmarks" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="60" Vartype="Pointer" Bytesize="4" Description="ComboColours" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="64" Vartype="Pointer" Bytesize="4" Description="eventManager" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="68" Vartype="Pointer" Bytesize="4" Description="hitFactory" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="72" Vartype="Pointer" Bytesize="4" Description="hitObjects" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="76" Vartype="Pointer" Bytesize="4" Description="hitObjectsMinimal" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="80" Vartype="Pointer" Bytesize="4" Description="hitObjectsReplaced" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="84" Vartype="Pointer" Bytesize="4" Description="lastHitObject" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="88" Vartype="Pointer" Bytesize="4" Description="spriteManager" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="92" Vartype="Pointer" Bytesize="4" Description="Variables" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="96" Vartype="Pointer" Bytesize="4" Description="ManiaStage" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="100" Vartype="Pointer" Bytesize="4" Description="followPoints" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="104" Vartype="Pointer" Bytesize="4" Description="ForcedHit" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="108" Vartype="Pointer" Bytesize="4" Description="lastAddedObject" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="112" Vartype="4 Bytes" Bytesize="4" Description="LongestObject" DisplayMethod="Signed Integer"/>
-        <Element Offset="116" Vartype="4 Bytes" Bytesize="4" Description="LongestObjectCount" DisplayMethod="Signed Integer"/>
-        <Element Offset="120" Vartype="Float" Bytesize="4" Description="SpriteRatio" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="124" Vartype="Float" Bytesize="4" Description="SpriteDisplaySize" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="128" Vartype="4 Bytes" Bytesize="4" Description="PreEmptSliderComplete" DisplayMethod="Signed Integer"/>
-        <Element Offset="132" Vartype="4 Bytes" Bytesize="4" Description="CurrentComboBad" DisplayMethod="Signed Integer"/>
-        <Element Offset="136" Vartype="4 Bytes" Bytesize="4" Description="CurrentComboKatu" DisplayMethod="Signed Integer"/>
-        <Element Offset="140" Vartype="4 Bytes" Bytesize="4" Description="currentHitObjectIndex" DisplayMethod="Signed Integer"/>
-        <Element Offset="144" Vartype="4 Bytes" Bytesize="4" Description="hitObjectsCount" DisplayMethod="Signed Integer"/>
-        <Element Offset="148" Vartype="Byte" Bytesize="1" Description="ReadFromOsb" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="149" Vartype="Byte" Bytesize="1" Description="BookmarksDontDelete" DisplayMethod="Unsigned Integer"/>
-      </Elements>
-    </Structure>
-  </Element>
-</Elements>
-    */
     public class Program
     {
         private static string _structContent;
