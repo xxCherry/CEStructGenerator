@@ -97,10 +97,10 @@ namespace CEStructGenerator
                         cppType = "int64_t";
                         break;
                     case "Float":
-                        cppType = "float_t";
+                        cppType = "float";
                         break;
                     case "Double":
-                        cppType = "double_t";
+                        cppType = "double";
                         break;
                     case "Array of byte":
                         cppType = "int8_t[]";
